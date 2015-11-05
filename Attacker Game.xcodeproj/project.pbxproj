@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE8AEEE71BEACF7300FD3647 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE8AEEE61BEACF7300FD3647 /* Minecraft.ttf */; };
 		FEA3981A1BE990D70010FEC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA398191BE990D70010FEC4 /* AppDelegate.swift */; };
 		FEA3981C1BE990D70010FEC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA3981B1BE990D70010FEC4 /* ViewController.swift */; };
 		FEA3981F1BE990D70010FEC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEA3981D1BE990D70010FEC4 /* Main.storyboard */; };
 		FEA398211BE990D70010FEC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEA398201BE990D70010FEC4 /* Assets.xcassets */; };
 		FEA398241BE990D70010FEC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEA398221BE990D70010FEC4 /* LaunchScreen.storyboard */; };
+		FEA398301BE9932B0010FEC4 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA3982F1BE9932B0010FEC4 /* Character.swift */; };
+		FEA398321BE996DF0010FEC4 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA398311BE996DF0010FEC4 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FEA398161BE990D70010FEC4 /* Lecture 47.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lecture 47.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE8AEEE61BEACF7300FD3647 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		FEA398161BE990D70010FEC4 /* Attacker Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Attacker Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEA398191BE990D70010FEC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEA3981B1BE990D70010FEC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FEA3981E1BE990D70010FEC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FEA398201BE990D70010FEC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FEA398231BE990D70010FEC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FEA398251BE990D70010FEC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEA3982F1BE9932B0010FEC4 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		FEA398311BE996DF0010FEC4 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +44,7 @@
 		FEA3980D1BE990D70010FEC4 = {
 			isa = PBXGroup;
 			children = (
-				FEA398181BE990D70010FEC4 /* Lecture 47 */,
+				FEA398181BE990D70010FEC4 /* Attacker Game */,
 				FEA398171BE990D70010FEC4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +52,65 @@
 		FEA398171BE990D70010FEC4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FEA398161BE990D70010FEC4 /* Lecture 47.app */,
+				FEA398161BE990D70010FEC4 /* Attacker Game.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FEA398181BE990D70010FEC4 /* Lecture 47 */ = {
+		FEA398181BE990D70010FEC4 /* Attacker Game */ = {
+			isa = PBXGroup;
+			children = (
+				FE8AEEE61BEACF7300FD3647 /* Minecraft.ttf */,
+				FEA3982E1BE992FA0010FEC4 /* Model */,
+				FEA3982D1BE992DA0010FEC4 /* View */,
+				FEA3982C1BE992C70010FEC4 /* Controller */,
+				FEA3982B1BE992A80010FEC4 /* Supporting Files */,
+			);
+			path = "Attacker Game";
+			sourceTree = "<group>";
+		};
+		FEA3982B1BE992A80010FEC4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				FEA398191BE990D70010FEC4 /* AppDelegate.swift */,
-				FEA3981B1BE990D70010FEC4 /* ViewController.swift */,
-				FEA3981D1BE990D70010FEC4 /* Main.storyboard */,
 				FEA398201BE990D70010FEC4 /* Assets.xcassets */,
 				FEA398221BE990D70010FEC4 /* LaunchScreen.storyboard */,
 				FEA398251BE990D70010FEC4 /* Info.plist */,
 			);
-			path = "Lecture 47";
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEA3982C1BE992C70010FEC4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FEA3981B1BE990D70010FEC4 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		FEA3982D1BE992DA0010FEC4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FEA3981D1BE990D70010FEC4 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		FEA3982E1BE992FA0010FEC4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FEA3982F1BE9932B0010FEC4 /* Character.swift */,
+				FEA398311BE996DF0010FEC4 /* Game.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FEA398151BE990D70010FEC4 /* Lecture 47 */ = {
+		FEA398151BE990D70010FEC4 /* Attacker Game */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FEA398281BE990D70010FEC4 /* Build configuration list for PBXNativeTarget "Lecture 47" */;
+			buildConfigurationList = FEA398281BE990D70010FEC4 /* Build configuration list for PBXNativeTarget "Attacker Game" */;
 			buildPhases = (
 				FEA398121BE990D70010FEC4 /* Sources */,
 				FEA398131BE990D70010FEC4 /* Frameworks */,
@@ -79,9 +120,9 @@
 			);
 			dependencies = (
 			);
-			name = "Lecture 47";
+			name = "Attacker Game";
 			productName = "Lecture 47";
-			productReference = FEA398161BE990D70010FEC4 /* Lecture 47.app */;
+			productReference = FEA398161BE990D70010FEC4 /* Attacker Game.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -100,7 +141,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FEA398111BE990D70010FEC4 /* Build configuration list for PBXProject "Lecture 47" */;
+			buildConfigurationList = FEA398111BE990D70010FEC4 /* Build configuration list for PBXProject "Attacker Game" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -113,7 +154,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FEA398151BE990D70010FEC4 /* Lecture 47 */,
+				FEA398151BE990D70010FEC4 /* Attacker Game */,
 			);
 		};
 /* End PBXProject section */
@@ -125,6 +166,7 @@
 			files = (
 				FEA398241BE990D70010FEC4 /* LaunchScreen.storyboard in Resources */,
 				FEA398211BE990D70010FEC4 /* Assets.xcassets in Resources */,
+				FE8AEEE71BEACF7300FD3647 /* Minecraft.ttf in Resources */,
 				FEA3981F1BE990D70010FEC4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,8 +178,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEA398301BE9932B0010FEC4 /* Character.swift in Sources */,
 				FEA3981C1BE990D70010FEC4 /* ViewController.swift in Sources */,
 				FEA3981A1BE990D70010FEC4 /* AppDelegate.swift in Sources */,
+				FEA398321BE996DF0010FEC4 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,10 +292,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Lecture 47/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Attacker Game/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nalsonlabs.Lecture-47";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nalsonlabs.Attacker-Game";
+				PRODUCT_NAME = "Attacker Game";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -259,17 +304,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Lecture 47/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Attacker Game/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nalsonlabs.Lecture-47";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nalsonlabs.Attacker-Game";
+				PRODUCT_NAME = "Attacker Game";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FEA398111BE990D70010FEC4 /* Build configuration list for PBXProject "Lecture 47" */ = {
+		FEA398111BE990D70010FEC4 /* Build configuration list for PBXProject "Attacker Game" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FEA398261BE990D70010FEC4 /* Debug */,
@@ -278,13 +324,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FEA398281BE990D70010FEC4 /* Build configuration list for PBXNativeTarget "Lecture 47" */ = {
+		FEA398281BE990D70010FEC4 /* Build configuration list for PBXNativeTarget "Attacker Game" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FEA398291BE990D70010FEC4 /* Debug */,
 				FEA3982A1BE990D70010FEC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

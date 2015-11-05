@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FEA398151BE990D70010FEC4"
-               BuildableName = "Lecture 47.app"
-               BlueprintName = "Lecture 47"
-               ReferencedContainer = "container:Lecture 47.xcodeproj">
+               BuildableName = "Attacker Game.app"
+               BlueprintName = "Attacker Game"
+               ReferencedContainer = "container:Attacker Game.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FEA398151BE990D70010FEC4"
-            BuildableName = "Lecture 47.app"
-            BlueprintName = "Lecture 47"
-            ReferencedContainer = "container:Lecture 47.xcodeproj">
+            BuildableName = "Attacker Game.app"
+            BlueprintName = "Attacker Game"
+            ReferencedContainer = "container:Attacker Game.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FEA398151BE990D70010FEC4"
-            BuildableName = "Lecture 47.app"
-            BlueprintName = "Lecture 47"
-            ReferencedContainer = "container:Lecture 47.xcodeproj">
+            BuildableName = "Attacker Game.app"
+            BlueprintName = "Attacker Game"
+            ReferencedContainer = "container:Attacker Game.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FEA398151BE990D70010FEC4"
-            BuildableName = "Lecture 47.app"
-            BlueprintName = "Lecture 47"
-            ReferencedContainer = "container:Lecture 47.xcodeproj">
+            BuildableName = "Attacker Game.app"
+            BlueprintName = "Attacker Game"
+            ReferencedContainer = "container:Attacker Game.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
